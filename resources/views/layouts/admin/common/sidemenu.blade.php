@@ -44,5 +44,25 @@
                 </li>
             </ul>
         </nav>
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('companies.index')}}">
+                        <i class="nav-icon fas fa-home"></i>
+                        <p>Company</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('employees.index')}}">
+                        <i class="nav-icon fas fa-home"></i>
+                        <p>Employee</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </aside>
